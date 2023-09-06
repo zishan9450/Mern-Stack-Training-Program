@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grp {
+        display: flex;
+      }
+      label {
+        flex: 0.1;
+        margin-right: 10px;
+        text-align: left;
+      }
+      input,
+      select {
+        justify-content: flex-start;
+        align-content: flex-start;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grp">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" />
+    </div>
+    <div class="grp">
+      <label for="uname">UserName:</label>
+      <input type="text" id="uname" />
+    </div>
+
+    <div class="grp">
+      <label for="pass">Password:</label>
+      <input type="password" id="pass" />
+    </div>
+    <div class="grp">
+      <label for="repass">RePassword:</label>
+      <input type="password" id="repass" />
+    </div>
+    <div class="grp">
+      <label for="add">Address:</label>
+      <input type="text" id="add" />
+    </div>
+    <div class="grp">
+      <label for="age">Age:</label>
+      <input type="number" id="age" />
+    </div>
+    <div class="grp">
+      <label for="gen">Gender:</label>
+      <select id="gen">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+    </div>
+    <button>Save</button>
+  </body>
+</html>
